@@ -18,8 +18,8 @@ alter table product add constraint FK1mtsbur82frn64de7balymq9s foreign key (cate
 alter table product_image add constraint FK6oo0cvcdtb6qmwsga468uuukk foreign key (product_id) references product (id);
 
 -- Insert dữ liệu
-INSERT INTO `fashionstore`.`user` (`id`, `login_Type`, `role`, `password`, `user_Name`, `avatar`, `email`, `phone_Number`) VALUES ('hoanhao1512', 'default', 'user', 'MQ==', 'Võ Hoàn Hảo', 'https://haycafe.vn/wp-content/uploads/2022/02/Avatar-trang-den.png', 'haovo1512@gmail.com', '0799197703');
-INSERT INTO `fashionstore`.`user` (`id`, `login_Type`, `role`, `password`, `user_Name`, `avatar`, `email`, `phone_Number`) VALUES ('admin', 'default', 'admin', 'MQ==', 'Võ Hoàn Hảo', 'https://haycafe.vn/wp-content/uploads/2022/02/Avatar-trang-den.png', 'haovo1512@gmail.com', '0799197703');
+INSERT INTO `fashionstore`.`user` (`id`, `login_Type`, `role`, `password`, `user_Name`, `avatar`, `email`, `phone_Number`) VALUES ('hoanhao1512', 'default', 'user', 'MQ==', 'TTCN', 'https://haycafe.vn/wp-content/uploads/2022/02/Avatar-trang-den.png', 'haovo1512@gmail.com', '0799197703');
+INSERT INTO `fashionstore`.`user` (`id`, `login_Type`, `role`, `password`, `user_Name`, `avatar`, `email`, `phone_Number`) VALUES ('admin', 'default', 'admin', 'MQ==', 'Nhóm 13- TTCN', 'https://haycafe.vn/wp-content/uploads/2022/02/Avatar-trang-den.png', 'haovo1512@gmail.com', '0799197703');
 -- user name = hoanhao1512 pass=1
 -- admin name = admin pass=1
 
